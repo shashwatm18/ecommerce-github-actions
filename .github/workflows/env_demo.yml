@@ -9,3 +9,5 @@ jobs:
     steps:
       - name: Show plain text env
         run: echo "My name is ${{env.NAME}}"
+      - name: Show secrets
+        run: echo "Secret is ${{secrets.SECRET_PASS}}"
