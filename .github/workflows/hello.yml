@@ -1,5 +1,7 @@
 name: Greet
-on: push
+# on: push
+on:
+  workflow_dispatch:
 
 jobs:
   Greet:
